@@ -1,2 +1,2 @@
 # collections
-Repository to discuss issues related to collections held on the NVS including proposals for new collections
+Repository for requesting new collections or for public queries about the NVS as a whole.
