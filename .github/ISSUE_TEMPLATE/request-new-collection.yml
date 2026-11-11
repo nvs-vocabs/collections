@@ -1,6 +1,6 @@
 name: Request new term
 description: Template to submit a request for a new vocabulary collection on the NVS
-title: "NTR: "
+title:
 labels: [New collection]
 assignees: []
 
