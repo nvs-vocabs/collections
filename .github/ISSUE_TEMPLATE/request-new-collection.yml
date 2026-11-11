@@ -11,37 +11,45 @@ body:
         Please provide the following information (all fields are mandatory unless specified otherwise). If you are unsure about a particular field, please either make an attempt or leave it blank. Queries can be discussed in the ticket comments.
 
   - type: input
-    id: Collection identifier
+    id: Collection-identifier
     attributes:
       label: "Collection identifier"
       description: "Please enter a proposed identifer for the new collection"
       placeholder: "e.g., R08"
 
   - type: input
-    id: Collection title
+    id: Collection-title
     attributes:
       label: "Collection title"
       description: "Please enter the full name of the new collection you wish to request."
       placeholder: "e.g., Argo instrument types"
 
   - type: input
-    id: Collection alternative title
+    id: Collection-alternative-title
     attributes:
       label: "Collection alternative title"
       description: "Please enter an abbreviation for the collection."
       placeholder: "e.g., ARGO_WMO_INST_TYPE"
 
   - type: textarea
-    id: Collection definition
+    id: Collection-definition
     attributes:
       label: "Collection Definition"
       description: "Please provide a proposed definition for the collection."
       placeholder: "e.g., Subset of instrument type codes from the World Meteorological Organization (WMO) Common Code Table C-3 (CCT C-3) 1770, named 'Instrument make and type for water temperature profile measurement with fall rate equation coefficients' and available here: https://library.wmo.int/doc_num.php?explnum_id=11283. Argo netCDF variable WMO_INST_TYPE is populated by R08 altLabel."
 
   - type: input
-    id: Collection governance group
+    id: Collection-governance-group
     attributes:
       label: "Collection governance group"
       description: "Please enter the group that owns/governs the collection. The governance group has the authority to create, modify and deprecate concepts within the collection."
       placeholder: "e.g., Argo Data Management Team (ADMT)"
+
+  type: upload
+    id: Upload-template
+    attributes:
+      label: Upload the completed template of new terms and definitions
+      description: Please upload the 
+    validations:
+      required: false
 
